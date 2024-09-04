@@ -8,7 +8,7 @@
 
 h1, h2, h3, h4, h5, h6, span {
     color: #242424;
-    text-align: cent;
+    text-align: center;
     line-height: 1.25;
 }
 
@@ -19,6 +19,13 @@ p {
 
 li {
     list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
 }
 
 /* NAVIGATION BAR */
@@ -61,4 +68,12 @@ nav {
     color: #6030b1;
     margin: 0 12px;
     font-weight: bold;
+}
+
+/* ABOUT ME */
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
